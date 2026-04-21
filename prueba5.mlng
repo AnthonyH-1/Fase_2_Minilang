@@ -1,0 +1,21 @@
+# Prueba 5 - Bucle while con acumulador
+int limite
+read(limite)
+int contador = 1
+int suma = 0
+while contador <= limite:
+    suma = suma + contador
+    contador = contador + 1
+write(suma)
+
+# segundo while: buscar si un numero es primo
+int n
+read(n)
+int divisor = 2
+int esPrimo = 1
+while divisor < n:
+    int mod = n % divisor
+    if mod == 0:
+        esPrimo = 0
+    divisor = divisor + 1
+write(esPrimo)

@@ -1,0 +1,13 @@
+# Prueba 3 - Input y decision con if/else anidado
+int nota
+read(nota)
+if nota >= 90:
+    write("Excelente")
+else:
+    if nota >= 70:
+        write("Aprobado")
+    else:
+        if nota >= 60:
+            write("Minimo aprobatorio")
+        else:
+            write("Reprobado")

@@ -1,0 +1,5 @@
+# Error 1 - Declaracion sin valor y operador invalido
+int x =
+float y = 3.14 @ 2.0
+string nombre
+write(nombre)

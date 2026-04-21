@@ -1,0 +1,7 @@
+# Error 2 - Estructura if mal formada
+int edad = 20
+if edad > 18
+    write("mayor")
+
+int resultado = sumar(10,
+write(resultado)

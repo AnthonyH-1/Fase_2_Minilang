@@ -1,0 +1,5 @@
+# Prueba 1 - Hola Mundo
+string saludo = "Hola Mundo"
+string nombre = "MiniLang"
+write(saludo)
+write(nombre)

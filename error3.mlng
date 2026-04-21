@@ -1,0 +1,9 @@
+# Error 3 - Funcion mal definida y while sin expresion
+def calcular(int a, int b:
+    return a + b
+
+while :
+    write("infinito")
+
+int z = calcular(5, 3)
+write(z)

@@ -1,0 +1,17 @@
+# Prueba 2 - Operaciones aritmeticas
+int a = 15
+int b = 4
+int suma = a + b
+int resta = a - b
+int producto = a * b
+int division = a / b
+int modulo = a % b
+write(suma)
+write(resta)
+write(producto)
+write(division)
+write(modulo)
+float pi = 3.14
+float radio = 5.0
+float area = pi * radio * radio
+write(area)

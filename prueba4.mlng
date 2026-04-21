@@ -1,0 +1,23 @@
+# Prueba 4 - Funciones con parametros
+
+def maximo(int a, int b):
+    if a > b:
+        return a
+    else:
+        return b
+
+def esPar(int n):
+    int resto = n % 2
+    if resto == 0:
+        return 1
+    else:
+        return 0
+
+int x = 18
+int y = 25
+int mayor = maximo(x, y)
+write(mayor)
+
+int numero = 42
+int par = esPar(numero)
+write(par)
